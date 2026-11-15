@@ -1,0 +1,61 @@
+NOTICE — HALOFLUX for Hermes
+============================
+
+This project is a third-level derivative work. The full attribution
+chain is listed below; all upstream notices are preserved as required.
+
+本项目是三级衍生作品，完整署名链如下；所有上游声明均按要求保留。
+
+
+Layer 1 — Original work / 原作
+------------------------------
+HALOFLUX
+Copyright (c) 2026 Ryder191 (RYDER CODE / Ms MAIKEBAIs CAT). All rights reserved.
+https://github.com/Ryder191/haloflux
+
+Required Notice: Copyright (c) 2026 Ryder191 (RYDER CODE / Ms MAIKEBAIs CAT) - https://github.com/Ryder191/haloflux
+Required Notice: Noncommercial use only. Any commercial use is strictly prohibited. No commercial licenses are offered.
+
+License: PolyForm Noncommercial License 1.0.0 (see LICENSE, reproduced
+in full in this repository). Noncommercial use only; any commercial
+use is strictly prohibited. The original work — including its source
+code and audiovisual design — remains the copyright of Ryder191.
+
+许可证：PolyForm Noncommercial License 1.0.0（全文见本仓库 LICENSE）。
+仅限非商业使用，严格禁止任何商业用途。原作（包括其源代码与视听
+设计）的版权归 Ryder191 所有。
+
+
+Layer 2 — AI LINK adaptation / 二次改编
+---------------------------------------
+HALOFLUX · AI LINK by yeshuiwushen
+https://github.com/yeshuiwushen/haloflux-ai-link
+
+A noncommercial adaptation of HALOFLUX that links the halo
+visualisation to live DeepSeek Harness session telemetry via a local
+data service.
+
+将 HALOFLUX 光环可视化与 DeepSeek Harness 的实时会话遥测数据联动
+的非商业改编版。
+
+
+Layer 3 — This work / 本作
+--------------------------
+HALOFLUX for Hermes — a Hermes Agent dashboard plugin adaptation
+of HALOFLUX · AI LINK.
+
+Changes made in this layer / 本层改动面：
+- The data layer was replaced: telemetry is now read from Hermes
+  Agent's own state.db by a dashboard plugin backend
+  (dashboard/plugin_api.py), instead of the original local service.
+- The frontend now polls a same-origin plugin endpoint
+  (/api/plugins/haloflux/stats) behind the dashboard login.
+- Close-up composition parameters are applied by default
+  (camera zoom / ring width tuning for readability).
+
+数据层改为由 dashboard 插件后端读取 Hermes Agent 自身的 state.db；
+前端改走同源插件接口（经 dashboard 登录鉴权）；默认启用特写构图
+参数（相机缩放 / 环带宽度，提升可读性）。
+
+This layer inherits the license above: noncommercial use only.
+本层沿用上述许可证：仅限非商业使用。

@@ -1,0 +1,1 @@
+{"api":"plugin_api.py","css":"dist/style.css","description":"HALOFLUX · AI LINK — live Hermes telemetry ring (reads ~/.hermes/state.db read-only)","entry":"dist/index.js","icon":"Activity","label":"HALOFLUX","name":"haloflux","tab":{"path":"/haloflux","position":"end"},"version":"1.3.0"}

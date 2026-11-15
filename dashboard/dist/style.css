@@ -1,0 +1,6 @@
+/* haloflux plugin — the tab layout is inline-styled in dist/index.js;
+   this file only guards the iframe against dashboard theme defaults. */
+iframe[title="HALOFLUX · AI LINK"] {
+  background: #000;
+  color-scheme: dark;
+}
