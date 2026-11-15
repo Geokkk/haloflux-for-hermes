@@ -8,7 +8,7 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-![HALOFLUX for Hermes — live demo data](docs/images/hero.png)
+![HALOFLUX for Hermes — live demo data](docs/images/hero%20(1).png)
 
 *Screenshot with fictional demo data — yours will show your own Hermes numbers.*
 
